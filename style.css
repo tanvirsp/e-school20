@@ -4,6 +4,7 @@
 
 
 
+
 .logo img {
     width: 200px;
 }
@@ -36,10 +37,6 @@ h1 {
     background-color: darkgreen;
     
 }
-
-
-
-
 
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -86,4 +83,157 @@ h1 {
 
 .hero-pic {
     width: 100%;
+}
+
+.box {
+    height: 270px;
+    width: 100%;
+    background-color:#F8FFFB;
+    margin: 50px 0;
+    border-radius: 15px;
+    transition: 300ms;
+    
+}
+
+.box:hover {
+     background-color: #fff;
+     box-shadow: 0 20px 40px #e6e7e8;
+   
+}
+
+
+.box img {
+   
+        display: block;
+        margin: 0 auto;
+}
+.box h3 {
+    font-size: 24px ;
+    font-weight: 500 ;
+    color: #413960;
+}
+
+.box p {
+    font-size: 16px ;
+    font-weight: 300 ;
+    color: #585859;
+
+}
+
+.course-title {
+    color: #413960;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+
+.card-deck .card {
+    padding: 20px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 10px 40px #e6e7e8;
+    border-radius: 25px;;
+
+}
+.card-body {
+    padding: 0;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+    margin: 25px 0 10px 0;
+  
+}
+
+.card-text {
+    font-size: 16px;
+    color: #585859;
+    margin-bottom: 30px;
+}
+
+
+
+.card-footer {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 45px;
+ 
+    
+}
+
+.card-footer img {
+    width: 23px;
+    height: 25px;
+ 
+
+}
+
+.card-footer h5 {
+    font-size: 16px;
+    color: #585859;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.testomonial {
+    padding: 15px 110px;
+    margin: 75px 0;
+
+}
+
+.testomonial img {
+    width: 60%;
+
+}
+.testomonial p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 20px; 
+    ;
+}
+
+.testo-title {
+    color: #000000;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.my-footer {
+    background-color: #282531;
+    color: #fff;
+    padding-top: 55px;
+    padding-bottom: 10px;
+}
+.my-footer p {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 200;
+    margin: auto;
+
+}
+
+.my-footer h6 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+.my-footer small {
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 200;
+    padding-top: 30px;
+    margin: auto;
+
 }
