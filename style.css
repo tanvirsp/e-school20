@@ -1,0 +1,89 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.logo img {
+    width: 200px;
+}
+
+.my-nav {
+    padding-top: 25px;
+}
+
+
+/*Re Useable Component*/
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 70px;
+}
+
+.btn-sign {
+    text-decoration: none;
+    background-color: #21B573;
+    padding: 10px 40px; 
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 30px; 
+}
+.btn-sign:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: darkgreen;
+    
+}
+
+
+
+
+
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.5rem;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#top-section {
+    background-color: #F0FFF0;
+   
+    
+}
+
+.hero-body {
+    padding: 75px 0;
+}
+
+.hero-body h5 {
+    font-size: 16px;
+    color: #FD511A;
+}
+
+.hero-body p {
+    font-size: 16px;
+    color: #6C6B6B;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+ 
+
+
+.highlight-text {
+    color: #21B573;
+}
+
+
+
+.hero-pic {
+    width: 100%;
+}
